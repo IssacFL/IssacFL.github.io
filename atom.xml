@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Free ME</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-10-24T02:55:33.024Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Issac Huang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2017/10/23/Hello-World-0/"/>
+    <id>http://yoursite.com/2017/10/23/Hello-World-0/</id>
+    <published>2017-10-23T15:16:35.691Z</published>
+    <updated>2017-10-24T02:55:33.024Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我发出来的第一篇博客，很荣幸呢！！！</p><p>背景叨叨叨</p><p>很久以前就想搭建一个个人技术博客的网站了，但是那时候接触的东西不多，没有听说过hexo、jekyll、wordpress等快速blog生成工具，自己在网上找了博客模板，修改了一下前端代码，用eclipse基于jsp搭建了一个小型博客发布到阿里云，但是时间久了发现自己写的代码不稳定，经常获取不到数据库数据，于是放弃了做个人博客网站的想法。</p><p>后来听说了hexo，但是一直没有定下心去看官方文档，于是搭博客网站的想法再一次不了了之。今晚闲暇，实在不知道该干什么，于是捡起了搭博客的想法，入门了hexo搭建github博客，现在记录下来，也算是作个念象，给想要搭建个人博客网站的小伙伴们一个参考。</p><p>PS: 因本人使用的是苹果机，所以本教程以Mac OS为参考，其实mac与windows搭建github博客相差无几，如果有用windows的小伙伴感到不适，可以参考手把手教你建github技术博客教程。</p><p>注册Github账号</p><p>这里我们就不多讲了，小伙伴们可以点击这里，进入官网进行注册。</p><p>作者：代码咖啡<br>链接：<a href="http://www.jianshu.com/p/e99ed60390a8" target="_blank" rel="external">http://www.jianshu.com/p/e99ed60390a8</a><br>來源：简书<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是我发出来的第一篇博客，很荣幸呢！！！&lt;/p&gt;
+&lt;p&gt;背景叨叨叨&lt;/p&gt;
+&lt;p&gt;很久以前就想搭建一个个人技术博客的网站了，但是那时候接触的东西不多，没有听说过hexo、jekyll、wordpress等快速blog生成工具，自己在网上找了博客模板，修改了一下前端代码，用e
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
