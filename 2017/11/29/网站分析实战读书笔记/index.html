@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="互联网," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Free ME" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="网站分析的目的、流程及价值 为什么要网站进行分析？每一个网站都有存在的目的以及意义。除了政府和公益网站外，大部分网站存在的目的都是为了产生货币收入。 明确网站目标以后，需要对目标分解成为小目标，不断优化这些目标以实现往网站的大目标。  网站分析是什么？网站的眼睛访问者来自哪里？访问者在寻找什么？哪些页面最受欢迎？这一部分主要帮助看清网站发生的事情。 网站的神经了解网站的健康状态，主要分析网站的逻辑">
+<meta name="keywords" content="互联网">
+<meta property="og:type" content="article">
+<meta property="og:title" content="网站分析实战读书笔记">
+<meta property="og:url" content="http://yoursite.com/2017/11/29/网站分析实战读书笔记/index.html">
+<meta property="og:site_name" content="Free ME">
+<meta property="og:description" content="网站分析的目的、流程及价值 为什么要网站进行分析？每一个网站都有存在的目的以及意义。除了政府和公益网站外，大部分网站存在的目的都是为了产生货币收入。 明确网站目标以后，需要对目标分解成为小目标，不断优化这些目标以实现往网站的大目标。  网站分析是什么？网站的眼睛访问者来自哪里？访问者在寻找什么？哪些页面最受欢迎？这一部分主要帮助看清网站发生的事情。 网站的神经了解网站的健康状态，主要分析网站的逻辑">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-11-30T07:33:26.060Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="网站分析实战读书笔记">
+<meta name="twitter:description" content="网站分析的目的、流程及价值 为什么要网站进行分析？每一个网站都有存在的目的以及意义。除了政府和公益网站外，大部分网站存在的目的都是为了产生货币收入。 明确网站目标以后，需要对目标分解成为小目标，不断优化这些目标以实现往网站的大目标。  网站分析是什么？网站的眼睛访问者来自哪里？访问者在寻找什么？哪些页面最受欢迎？这一部分主要帮助看清网站发生的事情。 网站的神经了解网站的健康状态，主要分析网站的逻辑">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/11/29/网站分析实战读书笔记/"/>
+
+
+
+
+
+  <title>网站分析实战读书笔记 | Free ME</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Free ME</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/29/网站分析实战读书笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Issac Huang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Free ME">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">网站分析实战读书笔记</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-29T08:39:24+08:00">
+                2017-11-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="网站分析的目的、流程及价值"><a href="#网站分析的目的、流程及价值" class="headerlink" title="网站分析的目的、流程及价值"></a>网站分析的目的、流程及价值</h1><blockquote>
+<p>为什么要网站进行分析？每一个网站都有存在的目的以及意义。除了政府和公益网站外，大部分网站存在的目的都是为了产生货币收入。</p>
+<p>明确网站目标以后，需要对目标分解成为小目标，不断优化这些目标以实现往网站的大目标。</p>
+</blockquote>
+<h2 id="网站分析是什么？"><a href="#网站分析是什么？" class="headerlink" title="网站分析是什么？"></a>网站分析是什么？</h2><h3 id="网站的眼睛"><a href="#网站的眼睛" class="headerlink" title="网站的眼睛"></a>网站的眼睛</h3><p>访问者来自哪里？访问者在寻找什么？哪些页面最受欢迎？这一部分主要帮助看清网站发生的事情。</p>
+<h3 id="网站的神经"><a href="#网站的神经" class="headerlink" title="网站的神经"></a>网站的神经</h3><p>了解网站的健康状态，主要分析网站的逻辑和结构，导航结构是否合理等等。</p>
+<h3 id="网站的大脑"><a href="#网站的大脑" class="headerlink" title="网站的大脑"></a>网站的大脑</h3><p>在完成目标的过程中合理分配资源和预算，不断优化提高网站的表现。主要分析对象为 <em>ROI（投资回报率）</em>。</p>
+<h2 id="主要分析内容及基本流程"><a href="#主要分析内容及基本流程" class="headerlink" title="主要分析内容及基本流程"></a>主要分析内容及基本流程</h2><p>可分为<strong>流量分析</strong>、<strong>内容分析</strong>、<strong>转化分析</strong></p>
+<h3 id="定义（Define）"><a href="#定义（Define）" class="headerlink" title="定义（Define）"></a>定义（Define）</h3><p>分析针对的问题是什么，需达到何种目的，确定需求分析的范围以及规划分析工作的进度及质量控制。</p>
+<h3 id="测量（Measure）"><a href="#测量（Measure）" class="headerlink" title="测量（Measure）"></a>测量（Measure）</h3><p>获得完整、真实、准确的数据</p>
+<h3 id="分析（Analyze）"><a href="#分析（Analyze）" class="headerlink" title="分析（Analyze）"></a>分析（Analyze）</h3><p>从数据中找到问题的本质，进一步对问题归纳及总结</p>
+<h3 id="改进（Improve）"><a href="#改进（Improve）" class="headerlink" title="改进（Improve）"></a>改进（Improve）</h3><p>找到解决问题的方案并解决。</p>
+<h3 id="控制（Control）"><a href="#控制（Control）" class="headerlink" title="控制（Control）"></a>控制（Control）</h3><p>反馈及监控</p>
+<h1 id="网站分析中的基础指标解释"><a href="#网站分析中的基础指标解释" class="headerlink" title="网站分析中的基础指标解释"></a>网站分析中的基础指标解释</h1><p>访问终端IP地址、访问时间戳、访问地址路径、访问来源、User Agent、其他定制信息</p>
+<h2 id="用户识别"><a href="#用户识别" class="headerlink" title="用户识别"></a>用户识别</h2><blockquote>
+<p>这一点在网站分析中尤为重要，对用户的分析，以及网站信息安全保护等均离不开对用户的识别</p>
+</blockquote>
+<h3 id="IP地址"><a href="#IP地址" class="headerlink" title="IP地址"></a>IP地址</h3><p>IP地址是最早使用识别唯一用户的标志，很大一方面如今仍有不少使用的原因是数据的用户已经习惯观察IP数。</p>
+<p>但是使用IP识别唯一用户会有很大的弊端，会造成用户数统计的误差，伪IP、代理、动态IP、局域网共享同一公司IP出口等情况都会干扰获取IP地址的唯一性和准确性，但IP地址是最容易获取的信息。</p>
+<h3 id="IP-User-Agent"><a href="#IP-User-Agent" class="headerlink" title="IP + User Agent"></a>IP + User Agent</h3><p>采用多个信息联合确定用户身份。对于用户而言，使用相同终端浏览网站时，User Agent的信息是相对固定的，固定的操作系统，相对固定的浏览器，使用 IP + User Agent的方式可以适当提高分辨率。</p>
+<p>但使用了IP地址，伪IP、动态IP和VPN等IP变动仍然无法避免，User Agent信息用户可自定义，准确度仍然不高</p>
+<h3 id="Cookie"><a href="#Cookie" class="headerlink" title="Cookie"></a>Cookie</h3><p>Cookie是网站以一小段文本的形式存放在用户本地终端的信息，以便网站之后的读取。Cookie都具有一定的有效期限。</p>
+<p>Cookie就能够唯一对应到用户的访问终端，但不像IP地址都能够获取到，Cookie需要预先写入访问终端，如果用户禁止Cookie，那这种用户识别机制就会失效，当用户执行了清理Cookie或重装系统的操作时候，Cookie会丢失。</p>
+<h3 id="User-Id"><a href="#User-Id" class="headerlink" title="User Id"></a>User Id</h3><p>即用户注册。很多网站也会把用户Id写入Cokie中以便用户下一次访问时直接判别用户身份，或完成自动登录的功能。</p>
+<h1 id="网站分析常用方法"><a href="#网站分析常用方法" class="headerlink" title="网站分析常用方法"></a>网站分析常用方法</h1><h2 id="趋势分析"><a href="#趋势分析" class="headerlink" title="趋势分析"></a>趋势分析</h2><h3 id="同比、环比、定基比"><a href="#同比、环比、定基比" class="headerlink" title="同比、环比、定基比"></a>同比、环比、定基比</h3><p>同比增长率是为了消除数据周期性波动的影响，将本周期内的数据与上一周期中相同时间点的数据进行比较。</p>
+<p>环比增长率反应的是数据连续变化的趋势，将本期的数据与上一期的数据进行对比。</p>
+<p>定基比增长率是讲所有的数据都与某个基准线的数据进行对比。</p>
+<h3 id="趋势线拟合及移动均值"><a href="#趋势线拟合及移动均值" class="headerlink" title="趋势线拟合及移动均值"></a>趋势线拟合及移动均值</h3><p>产品方更关注产品用户数量的变化，用户数能够从一定程度上体现产品在设计和用户体验上的优劣，观察更多的是按天统计的用户数，但是每天的用户数受到诸多因素的干扰，会存在较大的波动，数据的频繁波动会对数据分析产生干扰，使数据无法表现出真正的变化趋势。</p>
+<p>使用移动均值对趋势的把握会更准确。这是一种简单平滑的预测技术，通过在时间序列上逐项推移取一定项数的均值的方法来表现指标的长期变化和发展趋势。（股市的应用特别多，5日、10日、30日均线）</p>
+<p><strong>简单移动均值（simple moving average, SMA)</strong></p>
+<p>将时间序列上前n个数值做简单的算术平均。</p>
+<p><strong>加权移动平均（ weighted moving average, WMA)</strong></p>
+<p>在基于简单移动平均的基础上，对时间序列上前n期的每一期数值赋予相应的权重，即加权平均的结果。<strong>基本思想：提升近期的数据对当前预测值的影响，减弱远期数据对当前预测值的影响，使预测值更贴近最近的变化趋势。</strong></p>
+<h2 id="对比分析"><a href="#对比分析" class="headerlink" title="对比分析"></a>对比分析</h2><p>简单合并比较，我们可以进一步区分为<strong>百分比评分均值比较法</strong>和<strong>标准化指标合并比较法</strong>。</p>
+<p>而另外一种是比较试验设定，可以分为<strong>基于时间序列的组内比较</strong>和<strong>基于对照实验的组间比较</strong></p>
+<h2 id="细分分析"><a href="#细分分析" class="headerlink" title="细分分析"></a>细分分析</h2><blockquote>
+<p>指标：用来记录访问者行为的数字，可以分为基本指标和复合指标。最基本的包括访问次数、综合浏览量、访问深度、跳出率、平均网站停留时间等等。</p>
+<p>维度：观察访问者行为的角度。如语言、关键词、地理位置、浏览器、分辨率。</p>
+</blockquote>
+<p>细分最大的价值是可以让我们看清问题的所在。可以带来几个简单的好处：<strong>避免产生采样数据</strong>、<strong>避免平均数陷阱</strong>、<strong>增加细分目标</strong>、<strong>深度洞察数据</strong>。</p>
+<p>例子：“我想知道2010年3月10日北京地区使用Safari浏览器在Google搜索‘蓝鲸’关键词并点击了自然排名结果访问网站的次数。</p>
+<p>（1）时间维度：2010年3月10日</p>
+<p>（2）地理维度：北京地区</p>
+<p>（3）浏览器维度：Safari浏览器</p>
+<p>（4）流量来源维度:Google</p>
+<p>（5）流量属性维度：自然排名结果</p>
+<p>（6）关键词维度：“蓝鲸”</p>
+<h1 id="网站流量分析"><a href="#网站流量分析" class="headerlink" title="网站流量分析"></a>网站流量分析</h1><h2 id="直接流量"><a href="#直接流量" class="headerlink" title="直接流量"></a>直接流量</h2><p>1 访问者在浏览器地址栏汇中直接输入网址产生的流量</p>
+<p>2 访问者点击书签中收藏的网站URL产生的流量</p>
+<p>3 各种没有或丢失来源信息的流量，包括Flash广告、IM工具、弹窗广告</p>
+<p>对直接流量的分析，可以分为：细分直接流量的Landing Page分析、分析直接流量的访问路径分析、直接流量的站内搜索关键词分析、直接流量的地域分布分析、直接流量中的新老访客分析</p>
+<h2 id="虚假流量"><a href="#虚假流量" class="headerlink" title="虚假流量"></a>虚假流量</h2><p>虚假流量具有一定的目的性和规律性，其产生必定同某个特定的目的有关，而特定的目的有导致了虚假流量一定的特殊规律。而真实流量则具有自然性及多样性，不同的网民的喜好各不相同，行为也一定是多样的。</p>
+<h3 id="辨别虚假流量的十二种方法"><a href="#辨别虚假流量的十二种方法" class="headerlink" title="辨别虚假流量的十二种方法"></a>辨别虚假流量的十二种方法</h3><h4 id="1-使用高级群组分割流量"><a href="#1-使用高级群组分割流量" class="headerlink" title="1 使用高级群组分割流量"></a>1 使用高级群组分割流量</h4><p>首先需要将广告流量和网站的其它流量进行分割。</p>
+<h4 id="2-流量产生的时间和地理来源"><a href="#2-流量产生的时间和地理来源" class="headerlink" title="2 流量产生的时间和地理来源"></a>2 流量产生的时间和地理来源</h4><p>网站正常的访问流量会分布在一天中的各个时段，即使有访问高峰，整条曲线也会相对的平滑。若果流量过于集中在某个时段，在某个时段有了不正常的增长，那么这部分流量就非常可疑了。地理来源同理，网站流量的来源大致的分布都是规律的。</p>
+<h4 id="3-流量的网络属性"><a href="#3-流量的网络属性" class="headerlink" title="3 流量的网络属性"></a>3 流量的网络属性</h4><p>服务提供商报告显示的是网站访客使用的网络接入方式，正常情况下网站访问者的接入方式应该是千差万别的，而虚假流量的接入方式会很单一。</p>
+<h4 id="4-流量的跳出率和网站停留时间"><a href="#4-流量的跳出率和网站停留时间" class="headerlink" title="4 流量的跳出率和网站停留时间"></a>4 流量的跳出率和网站停留时间</h4><h4 id="5-进入路径-amp-点击分布图"><a href="#5-进入路径-amp-点击分布图" class="headerlink" title="5 进入路径&amp;点击分布图"></a>5 进入路径&amp;点击分布图</h4><p>访问者来到网站后会有不同的行为，会点击不同的链接、访问不同页面，并且在不同的页面结束对网站的访问，这些都是人为操控很难完成的。某些“智能流量”也能够完成2-3次的点击行为，但都是通过预先设定的，访问路径好结束页面基本相同。</p>
+<h4 id="6-单页面刷新分析"><a href="#6-单页面刷新分析" class="headerlink" title="6 单页面刷新分析"></a>6 单页面刷新分析</h4><h4 id="7-访客忠诚度分析"><a href="#7-访客忠诚度分析" class="headerlink" title="7 访客忠诚度分析"></a>7 访客忠诚度分析</h4><p>访客忠诚度是对一段时间内访客回访频率进行的分析。在分析一个渠道的流量时，适当拉大时间维度来分析访客回访是辨别虚假流量的一种方法。真实的访客中会有再次回访的行为产生，而虚假流量在合作结束之后是不会进行这些收尾工作的。</p>
+<h3 id="直接流量波动常见原因"><a href="#直接流量波动常见原因" class="headerlink" title="直接流量波动常见原因"></a>直接流量波动常见原因</h3><h4 id="1-品牌广告"><a href="#1-品牌广告" class="headerlink" title="1 品牌广告"></a>1 品牌广告</h4><p>品牌广告最直接的目的是让用户记住并访问网站，如果网址简洁又好记的话，用户会直接记住网站地址访问网站，这就造成了直接流量的增长。</p>
+<h4 id="2-热点事件"><a href="#2-热点事件" class="headerlink" title="2 热点事件"></a>2 热点事件</h4><p>既包括正面事件，也包括负面事件。无论是网站自己制造的病毒营销还是因某个失误被网友发现并放大，当网站因为热点事件被广泛关注时，流量肯定也会随之增长。这里包括营销活动如各类的专题、抽奖、打折促销活动等等。</p>
+<h4 id="3-内部访问"><a href="#3-内部访问" class="headerlink" title="3 内部访问"></a>3 内部访问</h4><p>如果网站内部工作人员比较少，不会对流量指标造成太大的影响，但是一旦员工的数量众多，就会对直接流量造成明显的影响。</p>
+<h3 id="付费搜索流量（SEM）波动常见原因"><a href="#付费搜索流量（SEM）波动常见原因" class="headerlink" title="付费搜索流量（SEM）波动常见原因"></a>付费搜索流量（SEM）波动常见原因</h3><h4 id="1-关键词匹配方式"><a href="#1-关键词匹配方式" class="headerlink" title="1 关键词匹配方式"></a>1 关键词匹配方式</h4><p>通常关键词会有三种匹配模式，即精确匹配、词组匹配和广泛匹配模式。不同的匹配模式决定了广告在搜索结果中被展现的数量，从而进一步影响到了关键词为网站带来的流量。</p>
+<h4 id="2-关键词出价策略"><a href="#2-关键词出价策略" class="headerlink" title="2 关键词出价策略"></a>2 关键词出价策略</h4><p>忽略质量维度的因素，出价策略直接影响广告的展现次数以及排名。广告在搜索结果的不同位置获得的点击量是有区别的。调整关键词的出价将直接影响广告的位置，从而影响关键词获得的流量。</p>
+<h4 id="3-修改关键词创意"><a href="#3-修改关键词创意" class="headerlink" title="3 修改关键词创意"></a>3 修改关键词创意</h4><p>付费搜索引擎广告的创意是指标题和描述中的内容，也是影响搜索流量的第三个原因。广告影响的不是位置以及展现次数，而是广告的点击率。</p>
+<h4 id="4-调整投放时间和地域"><a href="#4-调整投放时间和地域" class="headerlink" title="4 调整投放时间和地域"></a>4 调整投放时间和地域</h4><p>工作日8小时投放和7*24小时投放的关键词在流量上会有很大差别。投放时间直接影响广告的展现次数，进而影响广告的点击以及为网站带来的流量。</p>
+<p>单独针对北京和同时选择北京、上海两地投放广告的效果是不一样的。</p>
+<h4 id="5-竞争对手策略"><a href="#5-竞争对手策略" class="headerlink" title="5 竞争对手策略"></a>5 竞争对手策略</h4><p>当同竞争对手购买同一关键词时，出价策略往往会决定双方广告的排名，双方的广告创意会争夺访客的眼球，而匹配方式投放时间的调整也可能会使双方在更多的匹配关键词时间段内展开流量的竞争，造成付费搜索流量的变化。</p>
+<h4 id="6-关键词数量"><a href="#6-关键词数量" class="headerlink" title="6 关键词数量"></a>6 关键词数量</h4><h3 id="自然搜索流量（SEO）波动常见原因"><a href="#自然搜索流量（SEO）波动常见原因" class="headerlink" title="自然搜索流量（SEO）波动常见原因"></a>自然搜索流量（SEO）波动常见原因</h3><h4 id="1-网站收录量"><a href="#1-网站收录量" class="headerlink" title="1 网站收录量"></a>1 网站收录量</h4><p>当网站在搜索引擎的收录量发生变化时，看到最直观的变化就是关键词的数量变化，带来流量的关键词数量变少了。</p>
+<h4 id="2-标题描述优化"><a href="#2-标题描述优化" class="headerlink" title="2 标题描述优化"></a>2 标题描述优化</h4><p>类似于创意优化，都是对搜索结果中标题和描述内容的优化来吸引访客眼球，通过提高点击率来增加流量。与SEM不同，自然搜索中对标题和描述的修改没有SEM那么立竿见影，往往会存在一定的延迟。</p>
+<h4 id="3-排名与外链"><a href="#3-排名与外链" class="headerlink" title="3 排名与外链"></a>3 排名与外链</h4><p>访客从上往下浏览网页，没有好的排名意味着访客子啊没有看到你之前就离开了。</p>
+<h4 id="4-竞争对手"><a href="#4-竞争对手" class="headerlink" title="4 竞争对手"></a>4 竞争对手</h4><h4 id="5-网站内部调整"><a href="#5-网站内部调整" class="headerlink" title="5 网站内部调整"></a>5 网站内部调整</h4><p>简单的来说就是改版，改版是网站最大也是最混乱的一次内部调整，搜索引擎需要重新来认识这个网站的结构和内容。</p>
+<h4 id="6-服务器状态"><a href="#6-服务器状态" class="headerlink" title="6 服务器状态"></a>6 服务器状态</h4><p>网站的所有页面都保持在服务器里，如果服务器在蜘蛛访问时运行不稳定，或者直接宕机，一定会影响搜索引擎对页面的收录，进一步影响排名或流量。</p>
+<h4 id="7-SEM策略"><a href="#7-SEM策略" class="headerlink" title="7 SEM策略"></a>7 SEM策略</h4><p>对于同一个关键词，SEM广告的排名一定会高于SEO的排名。这种情况下，SEM的广告就会抢走本来属于SEO的流量，造成SEO的流量减少；而当SEM停止投放这个关键词的时候，SEO的流量又会增长。</p>
+<h2 id="网站用户分析"><a href="#网站用户分析" class="headerlink" title="网站用户分析"></a>网站用户分析</h2><p>首先需要进行用户细分，用户细分的关键在于以合理的体系将用户细分为几个类别，并且每个类别都能发挥其在用户分析上的功效，不存在累赘和混淆。</p>
+<p><strong>访问用户数</strong>：也即平常说的UV，主要按天或月统计，基于用户的访问行为。可以用于体现网站的访问用户量，能够直接反映网站的受欢迎程度。</p>
+<p><strong>新用户数</strong>：基于新用户数的计算可以得到新用户的比例，从而用于分析网站的推广效果和发展速度。</p>
+<p><strong>活跃用户数</strong>：活跃用户的定义千差万别，一般定义有关键动作或行为达到某个要求时的用户为活跃用户。活跃用户用于分析网站真正掌握的用户量，只有活跃用户才能直接或间接地为网站创造价值。</p>
+<p><strong>流失用户数</strong>：一段时间内未访问或登录过网站的用户。不同的网站对于流失的定义各不相同，对于微博和邮箱等需要经常登录查看的网站而言，可能超过一个月未登录就可以认为用户已经流失了，而对于电子商务网站而言，3个月未登录或半年内没有任何购买行为的用户可以被认定为流失用户。</p>
+<p><strong>回访用户数</strong>：是指那些之前已经流失，但之后又重新访问了网站的用户，用于分析网站挽回流失用户的能力。</p>
+<h3 id="用户行为分析"><a href="#用户行为分析" class="headerlink" title="用户行为分析"></a>用户行为分析</h3><p>习惯于将用户指标分为三大类，粘性、活跃和产出，每个分类可以包含多个行为指标来共同衡量用户在这三类中的行为表现，进而区分用户的行为特征，对用户进行分类或者综合评定。</p>
+<p><strong>粘性</strong>：主要关注用户在一段时间内持续访问和使用网站的情况，更强调一种持续的状态，将“访问频率”和“访问间隔时间”两个指标归到该类中。</p>
+<p><strong>活跃</strong>：更多地针对用户每次的访问过程，考察用户访问中的参与度，所以对统计期中用户的每次访问取平均值，选择“平均访问时长”和“平均访问页面数”来衡量活跃。</p>
+<p><strong>产出</strong>：直接根据网站的业务衡量用户创造的直接价值输出，例如电子商务网站选择“订单数”和“客单价”，一个衡量产出的频率，另一个衡量平均产出价值的大小。</p>
+<h3 id="用户忠诚度和价值分析"><a href="#用户忠诚度和价值分析" class="headerlink" title="用户忠诚度和价值分析"></a>用户忠诚度和价值分析</h3><p>“以用户为中心”的理论要求网站不断优化改善用户的体验，进而提升用户的满意度，当用户的预期不断被满足时，用户就会喜欢上这个网站，进而发展成为网站的忠诚用户，同时不断地为网站输出价值。忠诚用户不但自身为网站创造价值，而且可以为网站带来许多隐性的收益，比如品牌和口碑的推广，带动其他用户的进入和成长。所以网站的忠诚用户是网站生存和持续发展的基石，我们需要掌握每个用户的忠诚度，同时也需要了解每个用户的价值体现。</p>
+<p>对于传统销售行业，忠诚度会由以下的几个指标度量：重复购买意向、交叉购买意向、客户推荐意向和价格忍耐力。</p>
+<p>而对于所有网站基本上都可适用的指标有：<strong>用户访问频率</strong>、<strong>最近访问间隔时间</strong>、<strong>平均停留时长</strong>和<strong>平均浏览页面数</strong>。</p>
+<h3 id="用户的生命周期价值"><a href="#用户的生命周期价值" class="headerlink" title="用户的生命周期价值"></a>用户的生命周期价值</h3><p><strong>1 考察期</strong>：用户得知了你的网站，试探性地偶尔来访问网站，这个时候用户创造的价值比较低。</p>
+<p><strong>2 形成期</strong>：用户可能已经有点喜欢上你的网站了，会不定期进入网站，并开始尝试做些交互，这是用户创造的价值飞速提升。</p>
+<p><strong>3 稳定期</strong>：用户成为网站的忠实粉丝，经常光顾网站，不仅自己使用网站提供的服务，同时还会帮助宣传网站，这个阶段用户创造的价值达到最高峰并保持相对稳定。</p>
+<p><strong>4 退化期</strong>：用户由于某些因素导致与网站的关系开始产生裂痕，进而迅速破裂直到彻底离开，这个时期用户创造的价值迅速递减。 </p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/互联网/" rel="tag"># 互联网</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/11/25/日本国行记（2）/" rel="next" title="日本国行记（2）">
+                <i class="fa fa-chevron-left"></i> 日本国行记（2）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/12/09/春节打车供需不平衡问题/" rel="prev" title="关于滴滴如何解决春节高峰大城市供需失衡">
+                关于滴滴如何解决春节高峰大城市供需失衡 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMTUwMC84MDY0"></div>
+    </div>
+
+  
+
+
+
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Issac Huang</p>
+              <p class="site-description motion-element" itemprop="description">Seize the day.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#网站分析的目的、流程及价值"><span class="nav-number">1.</span> <span class="nav-text">网站分析的目的、流程及价值</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#网站分析是什么？"><span class="nav-number">1.1.</span> <span class="nav-text">网站分析是什么？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#网站的眼睛"><span class="nav-number">1.1.1.</span> <span class="nav-text">网站的眼睛</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网站的神经"><span class="nav-number">1.1.2.</span> <span class="nav-text">网站的神经</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网站的大脑"><span class="nav-number">1.1.3.</span> <span class="nav-text">网站的大脑</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主要分析内容及基本流程"><span class="nav-number">1.2.</span> <span class="nav-text">主要分析内容及基本流程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#定义（Define）"><span class="nav-number">1.2.1.</span> <span class="nav-text">定义（Define）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测量（Measure）"><span class="nav-number">1.2.2.</span> <span class="nav-text">测量（Measure）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分析（Analyze）"><span class="nav-number">1.2.3.</span> <span class="nav-text">分析（Analyze）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#改进（Improve）"><span class="nav-number">1.2.4.</span> <span class="nav-text">改进（Improve）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#控制（Control）"><span class="nav-number">1.2.5.</span> <span class="nav-text">控制（Control）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#网站分析中的基础指标解释"><span class="nav-number">2.</span> <span class="nav-text">网站分析中的基础指标解释</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#用户识别"><span class="nav-number">2.1.</span> <span class="nav-text">用户识别</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#IP地址"><span class="nav-number">2.1.1.</span> <span class="nav-text">IP地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#IP-User-Agent"><span class="nav-number">2.1.2.</span> <span class="nav-text">IP + User Agent</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cookie"><span class="nav-number">2.1.3.</span> <span class="nav-text">Cookie</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#User-Id"><span class="nav-number">2.1.4.</span> <span class="nav-text">User Id</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#网站分析常用方法"><span class="nav-number">3.</span> <span class="nav-text">网站分析常用方法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#趋势分析"><span class="nav-number">3.1.</span> <span class="nav-text">趋势分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#同比、环比、定基比"><span class="nav-number">3.1.1.</span> <span class="nav-text">同比、环比、定基比</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#趋势线拟合及移动均值"><span class="nav-number">3.1.2.</span> <span class="nav-text">趋势线拟合及移动均值</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#对比分析"><span class="nav-number">3.2.</span> <span class="nav-text">对比分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#细分分析"><span class="nav-number">3.3.</span> <span class="nav-text">细分分析</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#网站流量分析"><span class="nav-number">4.</span> <span class="nav-text">网站流量分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#直接流量"><span class="nav-number">4.1.</span> <span class="nav-text">直接流量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#虚假流量"><span class="nav-number">4.2.</span> <span class="nav-text">虚假流量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#辨别虚假流量的十二种方法"><span class="nav-number">4.2.1.</span> <span class="nav-text">辨别虚假流量的十二种方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-使用高级群组分割流量"><span class="nav-number">4.2.1.1.</span> <span class="nav-text">1 使用高级群组分割流量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-流量产生的时间和地理来源"><span class="nav-number">4.2.1.2.</span> <span class="nav-text">2 流量产生的时间和地理来源</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-流量的网络属性"><span class="nav-number">4.2.1.3.</span> <span class="nav-text">3 流量的网络属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-流量的跳出率和网站停留时间"><span class="nav-number">4.2.1.4.</span> <span class="nav-text">4 流量的跳出率和网站停留时间</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-进入路径-amp-点击分布图"><span class="nav-number">4.2.1.5.</span> <span class="nav-text">5 进入路径&点击分布图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-单页面刷新分析"><span class="nav-number">4.2.1.6.</span> <span class="nav-text">6 单页面刷新分析</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-访客忠诚度分析"><span class="nav-number">4.2.1.7.</span> <span class="nav-text">7 访客忠诚度分析</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#直接流量波动常见原因"><span class="nav-number">4.2.2.</span> <span class="nav-text">直接流量波动常见原因</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-品牌广告"><span class="nav-number">4.2.2.1.</span> <span class="nav-text">1 品牌广告</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-热点事件"><span class="nav-number">4.2.2.2.</span> <span class="nav-text">2 热点事件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-内部访问"><span class="nav-number">4.2.2.3.</span> <span class="nav-text">3 内部访问</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#付费搜索流量（SEM）波动常见原因"><span class="nav-number">4.2.3.</span> <span class="nav-text">付费搜索流量（SEM）波动常见原因</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-关键词匹配方式"><span class="nav-number">4.2.3.1.</span> <span class="nav-text">1 关键词匹配方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-关键词出价策略"><span class="nav-number">4.2.3.2.</span> <span class="nav-text">2 关键词出价策略</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-修改关键词创意"><span class="nav-number">4.2.3.3.</span> <span class="nav-text">3 修改关键词创意</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-调整投放时间和地域"><span class="nav-number">4.2.3.4.</span> <span class="nav-text">4 调整投放时间和地域</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-竞争对手策略"><span class="nav-number">4.2.3.5.</span> <span class="nav-text">5 竞争对手策略</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-关键词数量"><span class="nav-number">4.2.3.6.</span> <span class="nav-text">6 关键词数量</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自然搜索流量（SEO）波动常见原因"><span class="nav-number">4.2.4.</span> <span class="nav-text">自然搜索流量（SEO）波动常见原因</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-网站收录量"><span class="nav-number">4.2.4.1.</span> <span class="nav-text">1 网站收录量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-标题描述优化"><span class="nav-number">4.2.4.2.</span> <span class="nav-text">2 标题描述优化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-排名与外链"><span class="nav-number">4.2.4.3.</span> <span class="nav-text">3 排名与外链</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-竞争对手"><span class="nav-number">4.2.4.4.</span> <span class="nav-text">4 竞争对手</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-网站内部调整"><span class="nav-number">4.2.4.5.</span> <span class="nav-text">5 网站内部调整</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-服务器状态"><span class="nav-number">4.2.4.6.</span> <span class="nav-text">6 服务器状态</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-SEM策略"><span class="nav-number">4.2.4.7.</span> <span class="nav-text">7 SEM策略</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网站用户分析"><span class="nav-number">4.3.</span> <span class="nav-text">网站用户分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#用户行为分析"><span class="nav-number">4.3.1.</span> <span class="nav-text">用户行为分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用户忠诚度和价值分析"><span class="nav-number">4.3.2.</span> <span class="nav-text">用户忠诚度和价值分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用户的生命周期价值"><span class="nav-number">4.3.3.</span> <span class="nav-text">用户的生命周期价值</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-abstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Issac Huang</span>
+
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
